@@ -402,7 +402,7 @@
     background-size: cover;
   }
   .container {
-    padding: 40px 20px 40px 20px;
+    padding: 60px 20px 60px 20px;
     margin: 0 auto;
   }
   .banner-title {
@@ -437,6 +437,26 @@
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
+  }
+
+  /* benefit section */
+  .benefit-text-wrapper {
+    padding-bottom: 60px;
+  }
+  .benefit-title {
+    max-width: 450px;
+  }
+  .benefit-title h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .benefit-description {
+    max-width: 400px;
+  }
+  .benefit-description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
   }
 }
 
