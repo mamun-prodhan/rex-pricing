@@ -95,7 +95,7 @@
 /* benefit cards */
 .card-row-1 {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 2fr 1fr;
   grid-gap: 30px;
 }
 .woocommerce-card {
@@ -108,9 +108,11 @@
   border-radius: 5px;
 }
 .woocommerce-card-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+}
+.woocommerce-card-image img {
+  max-width: 100%;
+  height: auto;
 }
 .woocommerce-card-title {
   max-width: 370px;
@@ -457,6 +459,179 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+  }
+
+  /* benefit cards */
+  .card-row-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .woocommerce-card {
+    padding: 20px;
+    background: linear-gradient(
+      to top left,
+      rgba(208, 207, 255, 0.5) 0%,
+      rgba(208, 207, 255, 0.5) 100%
+    );
+    border-radius: 5px;
+  }
+  .woocommerce-card-title {
+    max-width: 370px;
+  }
+  .woocommerce-card-title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .woocommerce-card-description {
+    max-width: 370px;
+    padding-top: 12px;
+  }
+  .woocommerce-card-description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  /* savings card */
+  .savings-card {
+    padding: 20px;
+  }
+  .savings-card-title {
+    max-width: 378px;
+  }
+  .savings-card-title h2 {
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 28px;
+  }
+  .savings-card-description {
+    max-width: 370px;
+  }
+  .savings-card-description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "lato", sans-serif;
+    color: #6f7681;
+  }
+  .savings-card-image img {
+    margin-left: -40px;
+  }
+  /* row 2 */
+  /* updated card */
+  .card-row-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  .updated-card {
+    padding: 20px;
+    background: #def5ff;
+    border-radius: 5px;
+  }
+  .updated-card-title {
+    max-width: 263px;
+  }
+  .updated-card-title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    color: #3c3e4a;
+  }
+
+  .updated-card-description {
+    max-width: 347px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .updated-card-description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "lato", sans-serif;
+    color: #6f7681;
+  }
+  .updated-card-image {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  /* suport card */
+  .support-card {
+    padding: 20px;
+    background: #e9e9ff;
+    border-radius: 5px;
+  }
+  .support-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .updated-card-title {
+    max-width: 360px;
+  }
+  .support-card-title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    color: #3c3e4a;
+  }
+
+  .support-card-description {
+    max-width: 274px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .support-card-description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "lato", sans-serif;
+    color: #6f7681;
+  }
+
+  /* license card */
+  .license-card {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+  .license-card-title {
+    max-width: 272px;
+  }
+  .license-card-title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    color: #3c3e4a;
+  }
+
+  .license-card-description {
+    max-width: 274px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .license-card-description p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "lato", sans-serif;
+    color: #6f7681;
+  }
+  .license -card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkout-card-wrapper {
+    grid-template-columns: 1fr;
   }
 }
 
