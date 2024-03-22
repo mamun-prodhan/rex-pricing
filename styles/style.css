@@ -56,6 +56,10 @@
 }
 
 /* benefit section */
+.rex-benefit-section {
+  background-color: #f5f6fc;
+  background: linear-gradient(to right, #ffffff 0%, #dde1f1 100%);
+}
 .benefit-text-wrapper {
   padding-bottom: 60px;
 }
@@ -166,6 +170,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+  margin-top: 30px;
 }
 .updated-card {
   padding: 30px;
@@ -197,14 +202,21 @@
 }
 .updated-card-image {
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
+  padding-top: 50px;
 }
 /* suport card */
 .support-card {
   padding: 30px;
   background: #e9e9ff;
   border-radius: 5px;
+}
+.support-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
 }
 .updated-card-title {
   max-width: 360px;
@@ -229,13 +241,8 @@
   font-family: "lato", sans-serif;
   color: #6f7681;
 }
-.support-card-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-/* license key */
+/* license card */
 .license-card {
   padding: 30px;
   background: #ffffff;
@@ -268,4 +275,121 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* checkout our plugins */
+.checkout-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.checkout-section-title {
+  max-width: 723px;
+  padding-bottom: 60px;
+}
+.checkout-section-title h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  font-family: "poppins", sans-serif;
+  color: #3c3e4a;
+}
+.checkout-section-title h2 span {
+  color: #201cfe;
+}
+
+.checkout-card-wrapper {
+}
+.product-feed-manager-card {
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(../assets/pfm-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #f7f8ff;
+}
+.cart-lift-card {
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(../assets/cart-lift-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #f7f8ff;
+}
+.wpvr-card {
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(../assets/wpvr-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #f7f8ff;
+}
+.product-recommendation-card {
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(../assets/product-recommendation-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #f7f8ff;
+}
+.dynamic-discount-card {
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(../assets/dynamic-discount-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #f7f8ff;
+}
+.checkoutify-card {
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(../assets/checkoutify-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #f7f8ff;
+}
+.checkout-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 20px;
+}
+.checkout-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+}
+.checkout-card-header img {
+}
+.checkout-card-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+  font-family: "poppins", sans-serif;
+  color: #091e43;
+}
+.checkout-card-description {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.checkout-card-description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #6f7681;
+}
+.checkout-btn {
+  text-align: center;
+  margin-top: auto;
+}
+.checkout-btn a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: #091e43;
+}
+.checkout-btn a:hover {
+  color: #201cfe;
 }
